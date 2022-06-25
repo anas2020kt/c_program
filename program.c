@@ -14,7 +14,7 @@ int main()
     int count = 1;
     while (count <=10){
         int product = count * number;
-        printf("%d\n",product);
+        printf("%d*%d=%d",number,count,product);
         count = count +1;
 
     }
